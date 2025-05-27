@@ -19,8 +19,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         } else {
             echo "<p style='color:red;'>Erro ao cadastrar usuário.</p>";
         }
-    } else {
-        echo "<p style='color:red;'>Preencha todos os campos.</p>";
-    }
+    } 
 }
 ?>
